@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../../assets/logo-mastercraft.svg"
+import bookmarkIcon from "../../assets/icon-bookmark.svg"
 
 const MainHeader = () => {
     return (
@@ -12,7 +13,8 @@ const MainHeader = () => {
                     Back this project
                 </button>
                 <button className="btn bookmark" >
-                    
+                    <img className="icon" src={bookmarkIcon} alt="bookmark" />
+                    Bookmarke
                 </button>
             </div>
         </section>
